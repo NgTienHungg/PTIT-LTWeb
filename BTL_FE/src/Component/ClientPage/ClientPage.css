@@ -1,0 +1,27 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title {
+  text-align: center;
+  font-weight: bold;
+  color: blueviolet;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.image-container {
+  width: 200px; /* Định rõ kích thước */
+  height: 200px;
+}
+
+.image-container img {
+  width: 100%; /* Đảm bảo ảnh chiếm toàn bộ không gian của phần tử chứa */
+  height: 100%;
+  object-fit: cover;
+}

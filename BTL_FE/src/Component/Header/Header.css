@@ -1,0 +1,25 @@
+.header {
+  background: linear-gradient(90deg, #2980b9, #6dd5fa);
+  color: white;
+  padding: 12px;
+  width: 100%;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+.header-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: auto;
+  background: linear-gradient(-90deg, #ff8a00, #e52e71);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

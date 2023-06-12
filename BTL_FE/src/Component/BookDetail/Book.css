@@ -1,0 +1,70 @@
+.cover {
+  max-width: 1000px;
+  max-height: 400px;
+  object-fit: contain;
+}
+.Bookdetail {
+  margin-top: 20px;
+}
+.title-author {
+  justify-content: space-around;
+  padding: 0.5rem;
+}
+.description {
+  margin-left: 2.2rem;
+  padding: 0.5rem;
+}
+#description {
+  width: 93%;
+}
+.date-pageNumber {
+  justify-content: space-around;
+  padding: 0.5rem;
+  flex-basis: 50%;
+}
+.date {
+  margin-right: 3.6rem;
+}
+.category {
+  margin-left: 2.2rem;
+  padding: 0.5rem;
+}
+.upload-modal {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+.img-url {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+.img-file {
+  padding: 0.2rem;
+  margin-top: 0.5rem;
+}
+
+.input-title {
+  display: flex;
+  text-align: center;
+  padding: 5px;
+}
+
+.selected {
+  font-weight: bold;
+  background-color: #4287f5;
+  color: white;
+}
+
+.textarea-container {
+  position: relative;
+}
+
+.textarea-container textarea {
+  min-height: 150px; /* Giá trị tối thiểu cho chiều cao */
+  resize: vertical; /* Cho phép chỉnh kích thước theo chiều dọc */
+}
+
+.required:after {
+  content: " *";
+  color: red;
+}

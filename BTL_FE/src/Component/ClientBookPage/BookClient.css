@@ -1,0 +1,138 @@
+.book-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.book-image {
+  flex: 0 0 30%;
+}
+
+.quantity-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantity-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+.quantity-purchased {
+  width: 100px;
+  margin-right: 10px;
+  padding: 5px;
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.book-image img {
+  width: 100%;
+}
+
+.book-details {
+  flex: 0 0 70%;
+  padding-left: 20px;
+}
+
+.book-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.book-author {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.book-category {
+  margin-bottom: 5px;
+}
+
+.book-description {
+  margin-bottom: 10px;
+}
+
+.book-add-to-cart {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-input {
+  max-width: 100px;
+  margin-right: 10px;
+}
+
+.add-to-cart-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-to-cart-button:hover {
+  background-color: #0056b3;
+}
+
+.reviews-container {
+  margin-top: 20px;
+}
+
+.reviews-heading {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.review-form {
+  margin-bottom: 10px;
+}
+
+.rating-form label,
+.comment-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.rating-select,
+.comment-input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-review-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-review-button:hover {
+  background-color: #0056b3;
+}
+
+.review-list .list-group-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.bordered {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
